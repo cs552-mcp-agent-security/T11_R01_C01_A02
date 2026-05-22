@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS sessions_v1;
