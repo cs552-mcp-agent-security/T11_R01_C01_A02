@@ -54,3 +54,10 @@ common troubleshooting.
 ## License
 
 MIT
+
+| File                            | Purpose                                              |
+|---------------------------------|------------------------------------------------------|
+| `001_create_users.sql`          | Create `users` table.                                |
+| `002_create_sessions.sql`       | Create `sessions` table, FK to users.                |
+| `003_add_session_index.sql`     | Add `idx_sessions_user_id` on sessions.              |
+| `004_partition_users.sql`       | Range-partition `users` on `created_at` (monthly).   |
